@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +21,11 @@
     justify-content: space-between;
   }
 
+/* .header{
+  width: 500px;
+  margin: 0 10px   0 0;
+} */
+
   .icon {
     margin-top: 25px;
   }
@@ -29,15 +36,39 @@
     
   }
 
+.skills, .portfolio, .video, .price, .contacts,.en-ru {
+    list-style: none;
+    margin-right:20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height, or 250% */
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
   .links {
-    width: 100vw;
+    width: 400px;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    position: absolute;
+    right: 40px;
   }
 
-  /* .header{
+  .header {
     height: 100px;
-    width: 1440px;
-  } */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+
+  }
+
+
+  
