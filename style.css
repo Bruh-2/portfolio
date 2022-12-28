@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -63,10 +65,19 @@ body {
   color: aliceblue; 
 }
 
+.button{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+/* color: #000000; */
+}
+
 .prg{
   width: 470px;
   height: 120px;
   visibility: visible;
+  margin: -11px 0 0px 0;
 }
 
 .h1{
@@ -130,7 +141,53 @@ line-height: 40px;
   justify-content: space-around;
 }
 
-/* .alex-info{
+.button{
+  width: 222px;
+  height: 57px;
+  background-color: #BDAE82;
+  border-radius:0px;
+  margin: 24px 0 0 79px;
+}
+
+
+.h1{
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+}
+
+.wrapper_skills{
+  height: 482px;
+}
+
+.title {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 80px;
+color: #BDAE82;
+
+}
+
+.stick-name{
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  /* margin: 99px 0 0 265px; */
+  padding: 99px 0 0 0;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img{
+  width: 274px;
+  height: 2px;
+  margin: 40px 0 0 0px;
+}
+
+/* .img2{
+  width: 200px;
+  height: 2px;
+  margin: 40px 0 0 0px;
 } */
